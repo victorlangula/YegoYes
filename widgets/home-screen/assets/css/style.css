@@ -1,0 +1,78 @@
+.home-container {
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+}
+
+.home-container img {
+	max-width:100%;
+}
+
+.home-container > .row {
+     flex: 1;
+}
+
+.header {
+     flex: 1.5 !important;
+     align-items: center;
+}
+
+.icon-row {
+     align-items: center;
+}
+
+.icon-row .col .button {
+	margin-top:5px;
+	line-height: normal !important;
+	min-height: inherit;
+}
+
+.icon-row .icon.icon-xs {
+	font-size:2.2em;
+}
+
+.icon-row .icon.icon-s {
+	font-size:2.8em;
+}
+
+.icon-row .icon.icon-m {
+	font-size:3.2em;
+}
+
+.icon-row .icon.icon-l {
+	font-size:3.6em;
+}
+
+.icon-row .icon.icon-xl {
+	font-size:4.2em;
+}
+
+.icon-row.dark {
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+}
+
+.icon-row.dark .icon {
+	text-shadow: 1px 1px 14px rgba(0, 0, 0, 0.5);
+}
+
+.icon-row.light {
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.8);
+}
+
+.icon-row.light .icon {
+	text-shadow: 1px 1px 14px rgba(255, 255, 255, 0.5);
+}
+
+.col .button {
+	padding:2px 4px;
+}
+
+.col.bg-dark .button {
+	background:rgba(0, 0, 0, 0.5) !important;
+	color:#eee;
+}
+
+.col.bg-light .button {
+	background:rgba(255, 255, 255, 0.5) !important;
+	color:#222;
+}

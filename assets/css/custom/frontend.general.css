@@ -1,0 +1,15 @@
+/* Bootstrap validation auth views fix */
+.w-icon span.fa {
+	height:28px;
+}
+body,html {
+	height:100%;
+}
+body {
+	background: url(../../images/bg/login.jpg) center center no-repeat !important;
+	background-size:cover !important;
+}
+.slogan,
+.logo {
+	text-align:center;
+}
